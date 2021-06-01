@@ -5,8 +5,7 @@ module.exports = {
     jest: true
   },
   extends: [
-    'prettier-standard',
-    'plugin:react/recommended'
+    'plugin:react/recommended',
   ],
   globals: {
     Atomics: 'readonly',
@@ -26,13 +25,5 @@ module.exports = {
   rules: {
     'one-var': 0,
     'func-names': 0,
-    'prettier/prettier': [
-      'error',
-      {
-        'singleQuote': true,
-        'printWidth': 120,
-        'semi': false
-      }
-    ]
   }
 }
